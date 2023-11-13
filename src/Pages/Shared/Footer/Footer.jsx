@@ -3,16 +3,16 @@
 const Footer = () => {
     return (
         <>
-        <footer className="footer p-10 bg-neutral text-neutral-content">
-  <nav>
-    <header className="footer-title">Company</header> 
+        <footer className="footer footer-center p-10 bg-neutral text-white grid grid-cols-1 lg:grid-cols-2">
+  <nav className="">
+    <header className="footer-title">CONTACT US</header> 
     <a className="link link-hover">About us</a>
     <a className="link link-hover">Contact</a>
     <a className="link link-hover">Jobs</a>
     <a className="link link-hover">Press kit</a>
   </nav> 
   <nav>
-    <header className="footer-title">Legal</header> 
+    <header className="footer-title">Follow US</header> 
     <a className="link link-hover">Terms of use</a>
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
