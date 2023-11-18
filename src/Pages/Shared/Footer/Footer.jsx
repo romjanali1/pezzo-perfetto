@@ -1,6 +1,11 @@
 import { FaFacebookF, FaLinkedinIn, FaWhatsappSquare } from "react-icons/fa";
 
+
 const Footer = () => {
+  
+  const currentYear = new Date().getFullYear();
+
+
     return (
         <>
         <footer className="footer footer-center p-10 bg-neutral text-white grid grid-cols-1 lg:grid-cols-2">
@@ -21,7 +26,7 @@ const Footer = () => {
 </footer>
 <footer className="footer footer-center p-4 bg-base-300 text-base-content">
   <aside>
-    <p>Copyright © 2023 - All right reserved.</p>
+    <p>Copyright © {currentYear} - All right reserved.</p>
   </aside>
 </footer>
 
